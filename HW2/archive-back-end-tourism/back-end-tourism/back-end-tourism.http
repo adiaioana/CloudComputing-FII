@@ -1,0 +1,6 @@
+@back_end_tourism_HostAddress = http://localhost:5089
+
+GET {{back_end_tourism_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

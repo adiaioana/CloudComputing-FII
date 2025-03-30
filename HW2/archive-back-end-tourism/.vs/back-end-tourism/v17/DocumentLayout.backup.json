@@ -1,0 +1,345 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\FII\\CC\\HW2\\back-end-tourism\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{83DBE146-AAE2-4B4C-A010-5ACFABA1C1D4}|back-end-tourism\\WebAPI.csproj|d:\\fii\\cc\\hw2\\back-end-tourism\\back-end-tourism\\controllers\\attractioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83DBE146-AAE2-4B4C-A010-5ACFABA1C1D4}|back-end-tourism\\WebAPI.csproj|solutionrelative:back-end-tourism\\controllers\\attractioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83DBE146-AAE2-4B4C-A010-5ACFABA1C1D4}|back-end-tourism\\WebAPI.csproj|d:\\fii\\cc\\hw2\\back-end-tourism\\back-end-tourism\\application\\attractions\\attractionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83DBE146-AAE2-4B4C-A010-5ACFABA1C1D4}|back-end-tourism\\WebAPI.csproj|solutionrelative:back-end-tourism\\application\\attractions\\attractionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83DBE146-AAE2-4B4C-A010-5ACFABA1C1D4}|back-end-tourism\\WebAPI.csproj|d:\\fii\\cc\\hw2\\back-end-tourism\\back-end-tourism\\domain\\attractiondto_forpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83DBE146-AAE2-4B4C-A010-5ACFABA1C1D4}|back-end-tourism\\WebAPI.csproj|solutionrelative:back-end-tourism\\domain\\attractiondto_forpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83DBE146-AAE2-4B4C-A010-5ACFABA1C1D4}|back-end-tourism\\WebAPI.csproj|d:\\fii\\cc\\hw2\\back-end-tourism\\back-end-tourism\\domain\\attraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83DBE146-AAE2-4B4C-A010-5ACFABA1C1D4}|back-end-tourism\\WebAPI.csproj|solutionrelative:back-end-tourism\\domain\\attraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83DBE146-AAE2-4B4C-A010-5ACFABA1C1D4}|back-end-tourism\\WebAPI.csproj|d:\\fii\\cc\\hw2\\back-end-tourism\\back-end-tourism\\application\\attractions\\iattractionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83DBE146-AAE2-4B4C-A010-5ACFABA1C1D4}|back-end-tourism\\WebAPI.csproj|solutionrelative:back-end-tourism\\application\\attractions\\iattractionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83DBE146-AAE2-4B4C-A010-5ACFABA1C1D4}|back-end-tourism\\WebAPI.csproj|d:\\fii\\cc\\hw2\\back-end-tourism\\back-end-tourism\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83DBE146-AAE2-4B4C-A010-5ACFABA1C1D4}|back-end-tourism\\WebAPI.csproj|solutionrelative:back-end-tourism\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83DBE146-AAE2-4B4C-A010-5ACFABA1C1D4}|back-end-tourism\\WebAPI.csproj|d:\\fii\\cc\\hw2\\back-end-tourism\\back-end-tourism\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{83DBE146-AAE2-4B4C-A010-5ACFABA1C1D4}|back-end-tourism\\WebAPI.csproj|solutionrelative:back-end-tourism\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83DBE146-AAE2-4B4C-A010-5ACFABA1C1D4}|back-end-tourism\\WebAPI.csproj|d:\\fii\\cc\\hw2\\back-end-tourism\\back-end-tourism\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83DBE146-AAE2-4B4C-A010-5ACFABA1C1D4}|back-end-tourism\\WebAPI.csproj|solutionrelative:back-end-tourism\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83DBE146-AAE2-4B4C-A010-5ACFABA1C1D4}|back-end-tourism\\WebAPI.csproj|d:\\fii\\cc\\hw2\\back-end-tourism\\back-end-tourism\\infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83DBE146-AAE2-4B4C-A010-5ACFABA1C1D4}|back-end-tourism\\WebAPI.csproj|solutionrelative:back-end-tourism\\infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83DBE146-AAE2-4B4C-A010-5ACFABA1C1D4}|back-end-tourism\\WebAPI.csproj|d:\\fii\\cc\\hw2\\back-end-tourism\\back-end-tourism\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83DBE146-AAE2-4B4C-A010-5ACFABA1C1D4}|back-end-tourism\\WebAPI.csproj|solutionrelative:back-end-tourism\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83DBE146-AAE2-4B4C-A010-5ACFABA1C1D4}|back-end-tourism\\WebAPI.csproj|d:\\fii\\cc\\hw2\\back-end-tourism\\back-end-tourism\\domain\\attractiondto_forget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83DBE146-AAE2-4B4C-A010-5ACFABA1C1D4}|back-end-tourism\\WebAPI.csproj|solutionrelative:back-end-tourism\\domain\\attractiondto_forget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83DBE146-AAE2-4B4C-A010-5ACFABA1C1D4}|back-end-tourism\\WebAPI.csproj|d:\\fii\\cc\\hw2\\back-end-tourism\\back-end-tourism\\application\\users\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83DBE146-AAE2-4B4C-A010-5ACFABA1C1D4}|back-end-tourism\\WebAPI.csproj|solutionrelative:back-end-tourism\\application\\users\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83DBE146-AAE2-4B4C-A010-5ACFABA1C1D4}|back-end-tourism\\WebAPI.csproj|d:\\fii\\cc\\hw2\\back-end-tourism\\back-end-tourism\\application\\users\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83DBE146-AAE2-4B4C-A010-5ACFABA1C1D4}|back-end-tourism\\WebAPI.csproj|solutionrelative:back-end-tourism\\application\\users\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83DBE146-AAE2-4B4C-A010-5ACFABA1C1D4}|back-end-tourism\\WebAPI.csproj|d:\\fii\\cc\\hw2\\back-end-tourism\\back-end-tourism\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83DBE146-AAE2-4B4C-A010-5ACFABA1C1D4}|back-end-tourism\\WebAPI.csproj|solutionrelative:back-end-tourism\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83DBE146-AAE2-4B4C-A010-5ACFABA1C1D4}|back-end-tourism\\WebAPI.csproj|d:\\fii\\cc\\hw2\\back-end-tourism\\back-end-tourism\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83DBE146-AAE2-4B4C-A010-5ACFABA1C1D4}|back-end-tourism\\WebAPI.csproj|solutionrelative:back-end-tourism\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83DBE146-AAE2-4B4C-A010-5ACFABA1C1D4}|back-end-tourism\\WebAPI.csproj|d:\\fii\\cc\\hw2\\back-end-tourism\\back-end-tourism\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{83DBE146-AAE2-4B4C-A010-5ACFABA1C1D4}|back-end-tourism\\WebAPI.csproj|solutionrelative:back-end-tourism\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83DBE146-AAE2-4B4C-A010-5ACFABA1C1D4}|back-end-tourism\\WebAPI.csproj|d:\\fii\\cc\\hw2\\back-end-tourism\\back-end-tourism\\controllers\\securecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83DBE146-AAE2-4B4C-A010-5ACFABA1C1D4}|back-end-tourism\\WebAPI.csproj|solutionrelative:back-end-tourism\\controllers\\securecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83DBE146-AAE2-4B4C-A010-5ACFABA1C1D4}|back-end-tourism\\WebAPI.csproj|d:\\fii\\cc\\hw2\\back-end-tourism\\back-end-tourism\\webapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{83DBE146-AAE2-4B4C-A010-5ACFABA1C1D4}|back-end-tourism\\WebAPI.csproj|solutionrelative:back-end-tourism\\webapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 118,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AttractionController.cs",
+              "DocumentMoniker": "D:\\FII\\CC\\HW2\\back-end-tourism\\back-end-tourism\\Controllers\\AttractionController.cs",
+              "RelativeDocumentMoniker": "back-end-tourism\\Controllers\\AttractionController.cs",
+              "ToolTip": "D:\\FII\\CC\\HW2\\back-end-tourism\\back-end-tourism\\Controllers\\AttractionController.cs*",
+              "RelativeToolTip": "back-end-tourism\\Controllers\\AttractionController.cs*",
+              "ViewState": "AgIAACcAAAAAAAAAAAAvwDYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T17:13:49.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AttractionRepository.cs",
+              "DocumentMoniker": "D:\\FII\\CC\\HW2\\back-end-tourism\\back-end-tourism\\Application\\Attractions\\AttractionRepository.cs",
+              "RelativeDocumentMoniker": "back-end-tourism\\Application\\Attractions\\AttractionRepository.cs",
+              "ToolTip": "D:\\FII\\CC\\HW2\\back-end-tourism\\back-end-tourism\\Application\\Attractions\\AttractionRepository.cs",
+              "RelativeToolTip": "back-end-tourism\\Application\\Attractions\\AttractionRepository.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAADgvzUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T17:12:02.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AttractionDTO_forPOST.cs",
+              "DocumentMoniker": "D:\\FII\\CC\\HW2\\back-end-tourism\\back-end-tourism\\Domain\\AttractionDTO_forPOST.cs",
+              "RelativeDocumentMoniker": "back-end-tourism\\Domain\\AttractionDTO_forPOST.cs",
+              "ToolTip": "D:\\FII\\CC\\HW2\\back-end-tourism\\back-end-tourism\\Domain\\AttractionDTO_forPOST.cs",
+              "RelativeToolTip": "back-end-tourism\\Domain\\AttractionDTO_forPOST.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAIwC4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T14:18:41.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Attraction.cs",
+              "DocumentMoniker": "D:\\FII\\CC\\HW2\\back-end-tourism\\back-end-tourism\\Domain\\Attraction.cs",
+              "RelativeDocumentMoniker": "back-end-tourism\\Domain\\Attraction.cs",
+              "ToolTip": "D:\\FII\\CC\\HW2\\back-end-tourism\\back-end-tourism\\Domain\\Attraction.cs",
+              "RelativeToolTip": "back-end-tourism\\Domain\\Attraction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T17:19:00.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IAttractionRepository.cs",
+              "DocumentMoniker": "D:\\FII\\CC\\HW2\\back-end-tourism\\back-end-tourism\\Application\\Attractions\\IAttractionRepository.cs",
+              "RelativeDocumentMoniker": "back-end-tourism\\Application\\Attractions\\IAttractionRepository.cs",
+              "ToolTip": "D:\\FII\\CC\\HW2\\back-end-tourism\\back-end-tourism\\Application\\Attractions\\IAttractionRepository.cs",
+              "RelativeToolTip": "back-end-tourism\\Application\\Attractions\\IAttractionRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAowBAAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T17:11:34.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\FII\\CC\\HW2\\back-end-tourism\\back-end-tourism\\Program.cs",
+              "RelativeDocumentMoniker": "back-end-tourism\\Program.cs",
+              "ToolTip": "D:\\FII\\CC\\HW2\\back-end-tourism\\back-end-tourism\\Program.cs",
+              "RelativeToolTip": "back-end-tourism\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T17:53:51.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\FII\\CC\\HW2\\back-end-tourism\\back-end-tourism\\appsettings.json",
+              "RelativeDocumentMoniker": "back-end-tourism\\appsettings.json",
+              "ToolTip": "D:\\FII\\CC\\HW2\\back-end-tourism\\back-end-tourism\\appsettings.json",
+              "RelativeToolTip": "back-end-tourism\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-27T14:33:08.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "D:\\FII\\CC\\HW2\\back-end-tourism\\back-end-tourism\\Services\\JwtService.cs",
+              "RelativeDocumentMoniker": "back-end-tourism\\Services\\JwtService.cs",
+              "ToolTip": "D:\\FII\\CC\\HW2\\back-end-tourism\\back-end-tourism\\Services\\JwtService.cs",
+              "RelativeToolTip": "back-end-tourism\\Services\\JwtService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAUwBQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T17:51:49.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\FII\\CC\\HW2\\back-end-tourism\\back-end-tourism\\Infrastructure\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "back-end-tourism\\Infrastructure\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\FII\\CC\\HW2\\back-end-tourism\\back-end-tourism\\Infrastructure\\ApplicationDbContext.cs",
+              "RelativeToolTip": "back-end-tourism\\Infrastructure\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T17:26:53.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\FII\\CC\\HW2\\back-end-tourism\\back-end-tourism\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "back-end-tourism\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\FII\\CC\\HW2\\back-end-tourism\\back-end-tourism\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "back-end-tourism\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAQwB4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T08:57:21.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AttractionDTO_forGET.cs",
+              "DocumentMoniker": "D:\\FII\\CC\\HW2\\back-end-tourism\\back-end-tourism\\Domain\\AttractionDTO_forGET.cs",
+              "RelativeDocumentMoniker": "back-end-tourism\\Domain\\AttractionDTO_forGET.cs",
+              "ToolTip": "D:\\FII\\CC\\HW2\\back-end-tourism\\back-end-tourism\\Domain\\AttractionDTO_forGET.cs",
+              "RelativeToolTip": "back-end-tourism\\Domain\\AttractionDTO_forGET.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T14:07:28.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\FII\\CC\\HW2\\back-end-tourism\\back-end-tourism\\Application\\Users\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "back-end-tourism\\Application\\Users\\IUserRepository.cs",
+              "ToolTip": "D:\\FII\\CC\\HW2\\back-end-tourism\\back-end-tourism\\Application\\Users\\IUserRepository.cs",
+              "RelativeToolTip": "back-end-tourism\\Application\\Users\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T17:12:45.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\FII\\CC\\HW2\\back-end-tourism\\back-end-tourism\\Application\\Users\\UserRepository.cs",
+              "RelativeDocumentMoniker": "back-end-tourism\\Application\\Users\\UserRepository.cs",
+              "ToolTip": "D:\\FII\\CC\\HW2\\back-end-tourism\\back-end-tourism\\Application\\Users\\UserRepository.cs",
+              "RelativeToolTip": "back-end-tourism\\Application\\Users\\UserRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T17:13:04.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\FII\\CC\\HW2\\back-end-tourism\\back-end-tourism\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "back-end-tourism\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\FII\\CC\\HW2\\back-end-tourism\\back-end-tourism\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "back-end-tourism\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T17:13:32.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\FII\\CC\\HW2\\back-end-tourism\\back-end-tourism\\Domain\\User.cs",
+              "RelativeDocumentMoniker": "back-end-tourism\\Domain\\User.cs",
+              "ToolTip": "D:\\FII\\CC\\HW2\\back-end-tourism\\back-end-tourism\\Domain\\User.cs",
+              "RelativeToolTip": "back-end-tourism\\Domain\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T17:19:02.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\FII\\CC\\HW2\\back-end-tourism\\back-end-tourism\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "back-end-tourism\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\FII\\CC\\HW2\\back-end-tourism\\back-end-tourism\\Properties\\launchSettings.json",
+              "RelativeToolTip": "back-end-tourism\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-26T17:14:55.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SecureController.cs",
+              "DocumentMoniker": "D:\\FII\\CC\\HW2\\back-end-tourism\\back-end-tourism\\Controllers\\SecureController.cs",
+              "RelativeDocumentMoniker": "back-end-tourism\\Controllers\\SecureController.cs",
+              "ToolTip": "D:\\FII\\CC\\HW2\\back-end-tourism\\back-end-tourism\\Controllers\\SecureController.cs",
+              "RelativeToolTip": "back-end-tourism\\Controllers\\SecureController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T17:55:12.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "WebAPI",
+              "DocumentMoniker": "D:\\FII\\CC\\HW2\\back-end-tourism\\back-end-tourism\\WebAPI.csproj",
+              "RelativeDocumentMoniker": "back-end-tourism\\WebAPI.csproj",
+              "ToolTip": "D:\\FII\\CC\\HW2\\back-end-tourism\\back-end-tourism\\WebAPI.csproj",
+              "RelativeToolTip": "back-end-tourism\\WebAPI.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-26T17:14:52.21Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

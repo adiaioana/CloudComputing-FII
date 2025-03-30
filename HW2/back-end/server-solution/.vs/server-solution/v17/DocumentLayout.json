@@ -1,0 +1,251 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\FII\\CC\\HW2\\back-end\\server-solution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FB841119-3071-4815-BC28-AC2D0DDBF42F}|server-solution\\server-solution.csproj|d:\\fii\\cc\\hw2\\back-end\\server-solution\\server-solution\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FB841119-3071-4815-BC28-AC2D0DDBF42F}|server-solution\\server-solution.csproj|solutionrelative:server-solution\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB841119-3071-4815-BC28-AC2D0DDBF42F}|server-solution\\server-solution.csproj|d:\\fii\\cc\\hw2\\back-end\\server-solution\\server-solution\\services\\proxyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB841119-3071-4815-BC28-AC2D0DDBF42F}|server-solution\\server-solution.csproj|solutionrelative:server-solution\\services\\proxyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB841119-3071-4815-BC28-AC2D0DDBF42F}|server-solution\\server-solution.csproj|d:\\fii\\cc\\hw2\\back-end\\server-solution\\server-solution\\controllers\\proxycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB841119-3071-4815-BC28-AC2D0DDBF42F}|server-solution\\server-solution.csproj|solutionrelative:server-solution\\controllers\\proxycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB841119-3071-4815-BC28-AC2D0DDBF42F}|server-solution\\server-solution.csproj|d:\\fii\\cc\\hw2\\back-end\\server-solution\\server-solution\\dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB841119-3071-4815-BC28-AC2D0DDBF42F}|server-solution\\server-solution.csproj|solutionrelative:server-solution\\dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB841119-3071-4815-BC28-AC2D0DDBF42F}|server-solution\\server-solution.csproj|d:\\fii\\cc\\hw2\\back-end\\server-solution\\server-solution\\dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB841119-3071-4815-BC28-AC2D0DDBF42F}|server-solution\\server-solution.csproj|solutionrelative:server-solution\\dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB841119-3071-4815-BC28-AC2D0DDBF42F}|server-solution\\server-solution.csproj|d:\\fii\\cc\\hw2\\back-end\\server-solution\\server-solution\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB841119-3071-4815-BC28-AC2D0DDBF42F}|server-solution\\server-solution.csproj|solutionrelative:server-solution\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB841119-3071-4815-BC28-AC2D0DDBF42F}|server-solution\\server-solution.csproj|d:\\fii\\cc\\hw2\\back-end\\server-solution\\server-solution\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FB841119-3071-4815-BC28-AC2D0DDBF42F}|server-solution\\server-solution.csproj|solutionrelative:server-solution\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB841119-3071-4815-BC28-AC2D0DDBF42F}|server-solution\\server-solution.csproj|d:\\fii\\cc\\hw2\\back-end\\server-solution\\server-solution\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB841119-3071-4815-BC28-AC2D0DDBF42F}|server-solution\\server-solution.csproj|solutionrelative:server-solution\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB841119-3071-4815-BC28-AC2D0DDBF42F}|server-solution\\server-solution.csproj|d:\\fii\\cc\\hw2\\back-end\\server-solution\\server-solution\\dtos\\attractiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB841119-3071-4815-BC28-AC2D0DDBF42F}|server-solution\\server-solution.csproj|solutionrelative:server-solution\\dtos\\attractiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB841119-3071-4815-BC28-AC2D0DDBF42F}|server-solution\\server-solution.csproj|d:\\fii\\cc\\hw2\\back-end\\server-solution\\server-solution\\dtos\\createattractiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB841119-3071-4815-BC28-AC2D0DDBF42F}|server-solution\\server-solution.csproj|solutionrelative:server-solution\\dtos\\createattractiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB841119-3071-4815-BC28-AC2D0DDBF42F}|server-solution\\server-solution.csproj|d:\\fii\\cc\\hw2\\back-end\\server-solution\\server-solution\\dtos\\updateattractiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB841119-3071-4815-BC28-AC2D0DDBF42F}|server-solution\\server-solution.csproj|solutionrelative:server-solution\\dtos\\updateattractiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB841119-3071-4815-BC28-AC2D0DDBF42F}|server-solution\\server-solution.csproj|d:\\fii\\cc\\hw2\\back-end\\server-solution\\server-solution\\server-solution.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{FB841119-3071-4815-BC28-AC2D0DDBF42F}|server-solution\\server-solution.csproj|solutionrelative:server-solution\\server-solution.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 118,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProxyController.cs",
+              "DocumentMoniker": "D:\\FII\\CC\\HW2\\back-end\\server-solution\\server-solution\\Controllers\\ProxyController.cs",
+              "RelativeDocumentMoniker": "server-solution\\Controllers\\ProxyController.cs",
+              "ToolTip": "D:\\FII\\CC\\HW2\\back-end\\server-solution\\server-solution\\Controllers\\ProxyController.cs",
+              "RelativeToolTip": "server-solution\\Controllers\\ProxyController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwC8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T10:15:14.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProxyService.cs",
+              "DocumentMoniker": "D:\\FII\\CC\\HW2\\back-end\\server-solution\\server-solution\\Services\\ProxyService.cs",
+              "RelativeDocumentMoniker": "server-solution\\Services\\ProxyService.cs",
+              "ToolTip": "D:\\FII\\CC\\HW2\\back-end\\server-solution\\server-solution\\Services\\ProxyService.cs",
+              "RelativeToolTip": "server-solution\\Services\\ProxyService.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAuwGkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T10:12:19.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateUserDTO.cs",
+              "DocumentMoniker": "D:\\FII\\CC\\HW2\\back-end\\server-solution\\server-solution\\DTOs\\CreateUserDTO.cs",
+              "RelativeDocumentMoniker": "server-solution\\DTOs\\CreateUserDTO.cs",
+              "ToolTip": "D:\\FII\\CC\\HW2\\back-end\\server-solution\\server-solution\\DTOs\\CreateUserDTO.cs",
+              "RelativeToolTip": "server-solution\\DTOs\\CreateUserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T11:36:32.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\FII\\CC\\HW2\\back-end\\server-solution\\server-solution\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "server-solution\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\FII\\CC\\HW2\\back-end\\server-solution\\server-solution\\Properties\\launchSettings.json",
+              "RelativeToolTip": "server-solution\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-30T11:18:15.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserLoginDTO.cs",
+              "DocumentMoniker": "D:\\FII\\CC\\HW2\\back-end\\server-solution\\server-solution\\DTOs\\UserLoginDTO.cs",
+              "RelativeDocumentMoniker": "server-solution\\DTOs\\UserLoginDTO.cs",
+              "ToolTip": "D:\\FII\\CC\\HW2\\back-end\\server-solution\\server-solution\\DTOs\\UserLoginDTO.cs",
+              "RelativeToolTip": "server-solution\\DTOs\\UserLoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T12:07:46.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\FII\\CC\\HW2\\back-end\\server-solution\\server-solution\\Program.cs",
+              "RelativeDocumentMoniker": "server-solution\\Program.cs",
+              "ToolTip": "D:\\FII\\CC\\HW2\\back-end\\server-solution\\server-solution\\Program.cs",
+              "RelativeToolTip": "server-solution\\Program.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAgwDIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T10:14:32.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\FII\\CC\\HW2\\back-end\\server-solution\\server-solution\\appsettings.json",
+              "RelativeDocumentMoniker": "server-solution\\appsettings.json",
+              "ToolTip": "D:\\FII\\CC\\HW2\\back-end\\server-solution\\server-solution\\appsettings.json",
+              "RelativeToolTip": "server-solution\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-30T10:12:36.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "D:\\FII\\CC\\HW2\\back-end\\server-solution\\server-solution\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "server-solution\\DTOs\\UserDTO.cs",
+              "ToolTip": "D:\\FII\\CC\\HW2\\back-end\\server-solution\\server-solution\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "server-solution\\DTOs\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T11:36:52.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AttractionDTO.cs",
+              "DocumentMoniker": "D:\\FII\\CC\\HW2\\back-end\\server-solution\\server-solution\\DTOs\\AttractionDTO.cs",
+              "RelativeDocumentMoniker": "server-solution\\DTOs\\AttractionDTO.cs",
+              "ToolTip": "D:\\FII\\CC\\HW2\\back-end\\server-solution\\server-solution\\DTOs\\AttractionDTO.cs",
+              "RelativeToolTip": "server-solution\\DTOs\\AttractionDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T11:26:33.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateAttractionDTO.cs",
+              "DocumentMoniker": "D:\\FII\\CC\\HW2\\back-end\\server-solution\\server-solution\\DTOs\\CreateAttractionDTO.cs",
+              "RelativeDocumentMoniker": "server-solution\\DTOs\\CreateAttractionDTO.cs",
+              "ToolTip": "D:\\FII\\CC\\HW2\\back-end\\server-solution\\server-solution\\DTOs\\CreateAttractionDTO.cs",
+              "RelativeToolTip": "server-solution\\DTOs\\CreateAttractionDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T11:26:13.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UpdateAttractionDTO.cs",
+              "DocumentMoniker": "D:\\FII\\CC\\HW2\\back-end\\server-solution\\server-solution\\DTOs\\UpdateAttractionDTO.cs",
+              "RelativeDocumentMoniker": "server-solution\\DTOs\\UpdateAttractionDTO.cs",
+              "ToolTip": "D:\\FII\\CC\\HW2\\back-end\\server-solution\\server-solution\\DTOs\\UpdateAttractionDTO.cs",
+              "RelativeToolTip": "server-solution\\DTOs\\UpdateAttractionDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T11:31:21.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "server-solution",
+              "DocumentMoniker": "D:\\FII\\CC\\HW2\\back-end\\server-solution\\server-solution\\server-solution.csproj",
+              "RelativeDocumentMoniker": "server-solution\\server-solution.csproj",
+              "ToolTip": "D:\\FII\\CC\\HW2\\back-end\\server-solution\\server-solution\\server-solution.csproj",
+              "RelativeToolTip": "server-solution\\server-solution.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-30T11:18:13.489Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

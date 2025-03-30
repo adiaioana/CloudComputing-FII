@@ -1,0 +1,73 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;700&family=Lato:wght@400;700&family=Joan&display=swap');
+
+html, body { height: 100%; margin-right:200px; margin-left:200px;margin-top:20px;}
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+/* 🌍 Global Variables */
+:root {
+  /* 🎨 Colors */
+  --color-white: #FFFAF7;
+  --color-black: #050217;
+  --color-orange: #EE8434;
+  --color-blue: #496DDB;
+  --color-pink: #EB6896;
+
+  /* 🖋️ Fonts */
+  --font-title: 'Instrument Sans', sans-serif;
+  --font-button: 'Lato', sans-serif;
+  --font-description: 'Joan', serif;
+
+}
+
+/* 🌍 Apply Global Styles */
+body {
+  background-color: var(--color-white);
+  color: var(--color-black);
+  font-family: var(--font-title); /* Default font is Instrument Sans */
+  margin: 0;
+  padding: 0;
+}
+
+/* 🏷️ Headings (Titles) */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-title);
+}
+
+/* 🔘 Buttons */
+button, .btn {
+  font-family: var(--font-button);
+  background-color: var(--color-orange);
+  color: var(--color-white);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.logo{
+  font-size: 70px;
+  margin:10px;
+  font-weight: bold;
+  color: var(--color-orange);
+  font-family: var(--font-title);
+}
+.logo a{
+  font-size: 70px;
+  margin:10px;
+  font-weight: bold;
+  color: var(--color-orange);
+  font-family: var(--font-title);
+}
+button:hover {
+  background-color: var(--color-blue);
+}
+
+/* 📝 Descriptions */
+.description {
+  font-family: var(--font-description);
+  color: var(--color-black);
+  font-size: 30px;
+}
+
+.page-body{
+  margin-top: 100px;
+}

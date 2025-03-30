@@ -1,0 +1,42 @@
+.sublogo{
+  font-size: 60px;
+}
+.logo{
+  font-size: 96px;
+  color: var(--color-pink);
+  margin-right: 0;
+  padding-right: 0;
+  text-decoration:underline;
+}
+
+.browse-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 20px;
+  margin-top:50px;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  background-color: var(--color-blue);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.browse-btn a{
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  background-color: var(--color-blue);
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.browse-btn:hover a{
+  background-color: var(--color-black);
+}
+.browse-btn:hover {
+  background-color: var(--color-black);
+}

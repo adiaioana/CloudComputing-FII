@@ -1,0 +1,102 @@
+/* Align with global styles */
+#navlist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the items horizontally */
+  align-items: center;
+  background: transparent; /* No background */
+  padding-right: 10px;
+}
+
+/* Navigation Links */
+.nav-links {
+  display: flex;
+  justify-content: space-evenly; /* Ensure equal gaps between items */
+  gap: 20px; /* Increase gap to make the spacing more noticeable */
+  max-width: 1200px; /* You can limit the max width if needed */
+  margin: 0 auto; /* Center the nav links container */
+}
+
+.nav-item {
+  font-family: var(--font-button);
+  font-size: 30px;
+  padding: 10px 20px;
+  color: var(--color-black);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--color-orange);
+}
+
+/* Search Bar */
+.search {
+  background-color: var(--color-white);
+  font-family: var(--font-button);
+  font-size: 30px; /* Set font size for the search bar */
+  display: flex;
+  align-items: center;
+  border-radius: 25px;
+  border-color: var(--color-orange);
+  gap: 10px;
+  padding: 0 20px;
+  width: 35%; /* Adjust width to 30-40% of the screen */
+  max-width: 40%; /* Maximum width of 40% */
+  min-width: 30%; /* Minimum width of 30% */
+  margin: 0 auto; /* Center the search bar horizontally */
+}
+
+.search mat-form-field {
+  background-color: var(--color-white);
+  border-color: var(--color-orange);
+  width: 100%; /* Ensure mat-form-field takes up all available space */
+  font-size: 30px; /* Make sure the label text size is also adjusted */
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.search mat-form-field input {
+  background-color: var(--color-white);
+  border-color: var(--color-orange);
+  overflow: hidden;
+  font-size: 30px; /* Increase input text size */
+  padding: 10px; /* Make input more comfortable */
+  border-radius: 25px;
+}
+
+/* Search Button */
+.search-btn {
+  background: var(--color-orange);
+  color: var(--color-white);
+  padding: 10px 15px;
+  border-radius: 25px;
+  font-size: 30px; /* Font size of button text */
+  transition: background 0.3s ease;
+}
+
+.search-btn:hover {
+  background: var(--color-blue);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  #navlist {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%; /* Ensure nav links take up full width in column mode */
+  }
+
+  .search {
+    width: 80%; /* On small screens, increase the width */
+    justify-content: center;
+    margin-top: 10px;
+  }
+}
