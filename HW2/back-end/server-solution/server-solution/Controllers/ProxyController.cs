@@ -4,7 +4,7 @@ using server_solution.Services;
 using server_solution.DTOs;
 
 [ApiController]
-[Route("[controller]")]
+[Route("api")]
 public class ProxyController : ControllerBase
 {
     private readonly ProxyService _proxyService;

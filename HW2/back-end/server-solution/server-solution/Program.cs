@@ -67,7 +67,14 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 
-
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAngularApp",
+        builder => builder.WithOrigins("http://localhost:4200")  // Allow Angular frontend
+                          .AllowAnyMethod()                     // Allow any HTTP method (GET, POST, etc.)
+                          .AllowAnyHeader()                     // Allow any headers
+                          .AllowCredentials());                 // Allow credentials if needed (e.g., cookies, auth headers)
+});
 builder.Services.AddAuthorization();
 builder.Services.AddControllers();
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
@@ -75,7 +82,7 @@ builder.Services.AddHttpClient<ProxyService>();
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
 var app = builder.Build();
-
+app.UseCors("AllowAngularApp");
 if (swaggerConfig.GetValue<bool>("Enabled"))
 {
     app.UseSwagger();

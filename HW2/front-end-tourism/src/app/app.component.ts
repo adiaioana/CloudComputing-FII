@@ -4,10 +4,13 @@ import { MenuComponent } from './layout/menu/menu.component';
 
 @Component({
   selector: 'app-root',
-  standalone: true,  // Since you're using standalone components
-  imports: [RouterOutlet, MenuComponent],  // Import MenuComponent here
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  standalone: true,
+  imports: [RouterOutlet, MenuComponent],  // ✅ Ensure these are correct
+  template: `
+    <app-menu></app-menu>  <!-- ✅ Include MenuComponent -->
+    <router-outlet></router-outlet>   <!-- ✅ Ensure RouterOutlet is present -->
+  `,
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
   title = 'front-end-tourism';

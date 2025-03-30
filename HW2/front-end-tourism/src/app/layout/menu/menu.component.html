@@ -1,16 +1,17 @@
 <nav id="navlist">
   <!-- Logo / Branding (optional) -->
   <div class="logo">
-    <a routerLink="/">
-    Guider
-    </a>
+    <a routerLink="/">Guider</a>
   </div>
 
   <!-- Navigation Links -->
   <div class="nav-links">
     <a routerLink="/attractions" class="nav-item">Attractions</a>
     <a routerLink="/destinations" class="nav-item">Destinations</a>
-    <a routerLink="/log-in" class="nav-item">Sign in</a>
+
+    <!-- Conditionally show Sign In or My Account based on authentication -->
+    <a *ngIf="!authService.isAuthenticated()" routerLink="/login" class="nav-item">Sign in</a>
+    <a *ngIf="authService.isAuthenticated()" routerLink="/my-account" class="nav-item">My Account</a>
   </div>
 
   <!-- Search Bar -->

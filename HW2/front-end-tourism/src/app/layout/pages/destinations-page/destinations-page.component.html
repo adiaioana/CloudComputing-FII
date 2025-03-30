@@ -1,1 +1,17 @@
-<p>destinations-page works!</p>
+<div *ngIf="loading" class="loading-indicator">
+  <p>Loading destinations...</p>
+</div>
+
+<div *ngIf="!loading && !timeoutReached && distinctLocations.length > 0" class="attractions-grid">
+  <div *ngFor="let location of distinctLocations" class="attraction-card">
+    <h3>{{ location }}</h3>
+  </div>
+</div>
+
+<div *ngIf="timeoutReached && distinctLocations.length === 0" class="timeout-message">
+  <p>Sorry, it took too long to load the locations. Please try again later.</p>
+</div>
+
+<div *ngIf="!loading && distinctLocations.length === 0" class="no-attractions">
+  <p>No locations found.</p>
+</div>

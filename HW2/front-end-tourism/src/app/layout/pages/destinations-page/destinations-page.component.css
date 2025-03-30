@@ -1,0 +1,51 @@
+/* Grid layout for 3 items per row */
+.attractions-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* This creates 3 equal-width columns */
+  gap: 16px; /* Space between the cards */
+  padding: 20px;
+}
+
+/* Card styling */
+.attraction-card {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-size: 18px;
+  transition: transform 0.3s ease-in-out; /* Adding a smooth hover effect */
+}
+
+.attraction-card:hover {
+  transform: translateY(-5px); /* Slight hover effect */
+}
+
+.attraction-card h3 {
+  margin: 0;
+  color: #333;
+}
+
+/* Loading message */
+.loading-indicator {
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+  padding: 20px;
+}
+
+/* Timeout message */
+.timeout-message {
+  text-align: center;
+  font-size: 18px;
+  color: red;
+  padding: 20px;
+}
+
+/* No attractions found message */
+.no-attractions {
+  text-align: center;
+  font-size: 18px;
+  color: #888;
+  padding: 20px;
+}

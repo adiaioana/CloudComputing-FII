@@ -6,7 +6,7 @@
     "version": "v1"
   },
   "paths": {
-    "/Proxy/attractions": {
+    "/api/attractions": {
       "get": {
         "tags": [
           "Proxy"
@@ -47,7 +47,7 @@
         }
       }
     },
-    "/Proxy/attractions/{id}": {
+    "/api/attractions/{id}": {
       "get": {
         "tags": [
           "Proxy"
@@ -131,7 +131,7 @@
         }
       }
     },
-    "/Proxy/museum": {
+    "/api/museum": {
       "get": {
         "tags": [
           "Proxy"
@@ -143,7 +143,7 @@
         }
       }
     },
-    "/Proxy/locations": {
+    "/api/locations": {
       "get": {
         "tags": [
           "Proxy"
@@ -155,7 +155,7 @@
         }
       }
     },
-    "/Proxy/users": {
+    "/api/users": {
       "get": {
         "tags": [
           "Proxy"
@@ -167,7 +167,7 @@
         }
       }
     },
-    "/Proxy/user/{id}": {
+    "/api/user/{id}": {
       "get": {
         "tags": [
           "Proxy"
@@ -232,7 +232,7 @@
         }
       }
     },
-    "/Proxy/register": {
+    "/api/register": {
       "post": {
         "tags": [
           "Proxy"
@@ -263,7 +263,7 @@
         }
       }
     },
-    "/Proxy/login": {
+    "/api/login": {
       "post": {
         "tags": [
           "Proxy"

@@ -1,1 +1,29 @@
-<p>myaccount-page works!</p>
+<body>
+<div id="admin_information">
+
+  <div id="admin_image">
+    <img src="">
+  </div>
+
+  <div id="admin_details">
+    <label>name</label>
+    <input type="text" name="name" [value]="user?.username" disabled>
+
+    <label>email</label>
+    <input type="email" name="email" [value]="user?.email" disabled>
+
+  </div>
+
+</div>
+
+<div id="admin_controls">
+  <input type="file" name="pic" accept="image/*" style="float: left;">
+  <div>
+  <button style="float: right;" (click)="logout()">Log out</button></div>
+  <div>
+  <button style="float: right;">save</button></div>
+</div>
+
+
+
+</body>

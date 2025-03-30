@@ -1,1 +1,17 @@
-<p>attractions-page works!</p>
+<div *ngIf="loading" class="loading-indicator">
+  <p>Loading attractions...</p>
+</div>
+
+<div *ngIf="!loading && !timeoutReached && attractions.length > 0" class="attractions-grid">
+  <div *ngFor="let attraction of attractions" class="attraction-card">
+    <h3>{{ attraction.name }}</h3>
+  </div>
+</div>
+
+<div *ngIf="timeoutReached && attractions.length === 0" class="timeout-message">
+  <p>Sorry, it took too long to load the attractions. Please try again later.</p>
+</div>
+
+<div *ngIf="!loading && attractions.length === 0" class="no-attractions">
+  <p>No attractions found.</p>
+</div>

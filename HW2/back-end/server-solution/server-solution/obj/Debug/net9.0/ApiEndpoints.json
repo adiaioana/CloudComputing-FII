@@ -2,7 +2,7 @@
   {
     "ContainingType": "ProxyController",
     "Method": "GetAttractions",
-    "RelativePath": "Proxy/attractions",
+    "RelativePath": "api/attractions",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -12,7 +12,7 @@
   {
     "ContainingType": "ProxyController",
     "Method": "CreateAttraction",
-    "RelativePath": "Proxy/attractions",
+    "RelativePath": "api/attractions",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -28,7 +28,7 @@
   {
     "ContainingType": "ProxyController",
     "Method": "GetAttractionById",
-    "RelativePath": "Proxy/attractions/{id}",
+    "RelativePath": "api/attractions/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -44,7 +44,7 @@
   {
     "ContainingType": "ProxyController",
     "Method": "UpdateAttraction",
-    "RelativePath": "Proxy/attractions/{id}",
+    "RelativePath": "api/attractions/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -65,7 +65,7 @@
   {
     "ContainingType": "ProxyController",
     "Method": "DeleteAttraction",
-    "RelativePath": "Proxy/attractions/{id}",
+    "RelativePath": "api/attractions/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -81,7 +81,7 @@
   {
     "ContainingType": "ProxyController",
     "Method": "GetLocations",
-    "RelativePath": "Proxy/locations",
+    "RelativePath": "api/locations",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -91,7 +91,7 @@
   {
     "ContainingType": "ProxyController",
     "Method": "Login",
-    "RelativePath": "Proxy/login",
+    "RelativePath": "api/login",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -107,7 +107,7 @@
   {
     "ContainingType": "ProxyController",
     "Method": "GetMuseums",
-    "RelativePath": "Proxy/museum",
+    "RelativePath": "api/museum",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -117,7 +117,7 @@
   {
     "ContainingType": "ProxyController",
     "Method": "Register",
-    "RelativePath": "Proxy/register",
+    "RelativePath": "api/register",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -133,7 +133,7 @@
   {
     "ContainingType": "ProxyController",
     "Method": "GetUserById",
-    "RelativePath": "Proxy/user/{id}",
+    "RelativePath": "api/user/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -149,7 +149,7 @@
   {
     "ContainingType": "ProxyController",
     "Method": "UpdateUser",
-    "RelativePath": "Proxy/user/{id}",
+    "RelativePath": "api/user/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -165,7 +165,7 @@
   {
     "ContainingType": "ProxyController",
     "Method": "DeleteUser",
-    "RelativePath": "Proxy/user/{id}",
+    "RelativePath": "api/user/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -181,7 +181,7 @@
   {
     "ContainingType": "ProxyController",
     "Method": "GetUsers",
-    "RelativePath": "Proxy/users",
+    "RelativePath": "api/users",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

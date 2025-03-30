@@ -111,11 +111,14 @@ def get_users():
 @app.route('/user/<uuid:id>', methods=['GET'])
 @jwt_required()
 def get_user(id):
-    claims = get_jwt()  # Get JWT claims (includes role)
+    claims = get_jwt()  # Get JWT claims (includes role and sub)
+    user_id_from_jwt = claims.get("sub")  # Get user ID from JWT
+    print(user_id_from_jwt, file=sys.stderr)
+    user_role = claims.get("role")  # Get user role
 
-    # Check if user role is "Admin"
-    if claims.get("role") != "Admin":
-        return jsonify({"error": "Forbidden: Admin role required"}), 403
+    # Allow access if the user is an admin or if the user ID matches the requested ID
+    if user_role != "Admin" and str(user_id_from_jwt)!= str(id):
+        return jsonify({"error": "Forbidden: Access denied"}), 403
 
     user = Users.query.get_or_404(id)
     return jsonify(user.to_dict())
@@ -179,7 +182,7 @@ def login():
             additional_claims={"email": user.email, "role": user.role},  # ✅ Extra info goes here
             expires_delta=expires
         )
-        return jsonify({"access_token": access_token}), 200
+        return jsonify({"token": access_token}), 200
 
     return jsonify({"error": "Invalid email or password"}), 401
 
