@@ -1,0 +1,28 @@
+<div *ngIf="loading" class="loading-indicator">
+  <p>Loading attractions...</p>
+</div>
+
+<div *ngIf="!loading && !timeoutReached && attractions.length > 0" class="attractions-grid">
+  <div *ngFor="let attraction of attractions" class="attraction-card">
+    <a [routerLink]="['/attraction', attraction.id]" class="attraction-card-link">
+      <div class="card-image">
+        <!-- Use the attraction's name to fetch the image -->
+        <img *ngIf="attractionsImages[attraction.name]"
+             [src]="attractionsImages[attraction.name]"
+             alt="{{ attraction.name }}" />
+        <div *ngIf="!attractionsImages[attraction.name]" class="no-image">No Image Available</div>
+      </div>
+      <h3>{{ attraction.name }}</h3>
+      <p>{{ attraction.location }}</p>
+    </a>
+  </div>
+</div>
+
+<!-- Timeout or empty state -->
+<div *ngIf="timeoutReached && attractions.length === 0" class="timeout-message">
+  <p>Sorry, it took too long to load the attractions. Please try again later.</p>
+</div>
+
+<div *ngIf="!loading && attractions.length === 0" class="no-attractions">
+  <p>No attractions found.</p>
+</div>

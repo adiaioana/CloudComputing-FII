@@ -1,0 +1,46 @@
+<div *ngIf="loading" class="loading-indicator">
+  <p>Loading attraction details...</p>
+</div>
+
+<div *ngIf="timeoutReached" class="timeout-message">
+  <p>Sorry, it took too long to load the attraction details. Please try again later.</p>
+</div>
+
+<div *ngIf="error" class="error-message">
+  <p>Error loading attraction details. Please try again later.</p>
+</div>
+
+<section *ngIf="!loading && !timeoutReached && attraction" class="attraction-details">
+  <header class="attraction-header">
+    <div class="attraction-text-info">
+      <h2>{{ attraction.name }}</h2>
+      <p><strong>Category:</strong> {{ attraction.category }}</p>
+      <p><strong>Location:</strong> {{ attraction.location }}</p>
+      <p><strong>Rating:</strong> {{ attraction.rating }} / 5</p>
+      <p><strong>Description:</strong> {{ attraction.description }}</p>
+      <p><strong>Entry Fee:</strong> {{ attraction.entry_fee }}</p>
+      <p><strong>Opening Hours:</strong> {{ attraction.opening_hours }}</p>
+
+      <!-- Displaying the number of reviews -->
+      <h3>There are {{ reviews.length }} review(s):</h3>
+    </div>
+    <div #map class="attraction-map-container" style="width: 400px; height: 300px;"></div>
+  </header>
+
+  <!-- Review Section -->
+  <section *ngIf="!reviewsLoading && !reviewsError" class="reviews-section">
+    <div *ngIf="reviews.length > 0; else noReviews">
+      <div *ngFor="let review of reviews" class="review">
+        <p><strong>Rating:</strong> {{ review.review_score }} / 5</p>
+        <p><strong>Review:</strong> {{ review.review_text }}</p>
+      </div>
+    </div>
+    <ng-template #noReviews>
+      <p>No reviews yet for this attraction.</p>
+    </ng-template>
+  </section>
+
+  <div class="back-button-container">
+    <button (click)="goBack()" class="back-button">Back to Attractions</button>
+  </div>
+</section>

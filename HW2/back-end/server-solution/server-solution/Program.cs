@@ -79,6 +79,7 @@ builder.Services.AddAuthorization();
 builder.Services.AddControllers();
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddHttpClient<ProxyService>();
+builder.Services.AddHttpClient<DataService>();
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
 var app = builder.Build();

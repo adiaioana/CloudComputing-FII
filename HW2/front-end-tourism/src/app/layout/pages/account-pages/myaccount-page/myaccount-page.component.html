@@ -1,29 +1,51 @@
 <body>
 <div id="admin_information">
-
   <div id="admin_image">
-    <img src="">
+    <img [src]="user?.profilePicture || 'default-image-url'" alt="Profile Picture">
   </div>
 
   <div id="admin_details">
-    <label>name</label>
-    <input type="text" name="name" [value]="user?.username" disabled>
+    <label>Username</label>
+    <input type="text" name="username" [value]="username" disabled>
 
-    <label>email</label>
-    <input type="email" name="email" [value]="user?.email" disabled>
-
+    <label>Email</label>
+    <input type="email" name="email" [value]="email" disabled>
   </div>
-
 </div>
 
 <div id="admin_controls">
-  <input type="file" name="pic" accept="image/*" style="float: left;">
+  <input type="file" name="pic" accept="image/*" (change)="onFileSelected($event)" style="float: left;">
   <div>
-  <button style="float: right;" (click)="logout()">Log out</button></div>
-  <div>
-  <button style="float: right;">save</button></div>
+    <button style="float: right;" (click)="logout()">Log out</button>
+  </div>
+  <!--<div>
+    <button style="float: right;">Save</button>
+  </div>-->
 </div>
 
+<!-- Reviews Section -->
+<div id="user_reviews">
+  <h3>Reviews You've Made:</h3>
 
+  <div *ngIf="reviewsLoading" class="loading-indicator">
+    <p>Loading your reviews...</p>
+  </div>
 
+  <div *ngIf="reviewsError" class="error-message">
+    <p>Error loading reviews. Please try again later.</p>
+  </div>
+
+  <div *ngIf="!reviewsLoading && !reviewsError && reviews.length === 0">
+    <p>No reviews yet.</p>
+  </div>
+
+  <div *ngIf="!reviewsLoading && !reviewsError && reviews.length > 0">
+    <div *ngFor="let review of reviews" class="review">
+      <p><strong>Attraction:</strong> {{ review.attraction_name }}</p>
+      <p><strong>Rating:</strong> {{ review.review_score }} / 5</p>
+      <p><strong>Review:</strong> {{ review.review_text }}</p>
+      <hr />
+    </div>
+  </div>
+</div>
 </body>

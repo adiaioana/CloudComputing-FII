@@ -80,6 +80,38 @@
   },
   {
     "ContainingType": "ProxyController",
+    "Method": "ForwardSearchRequest",
+    "RelativePath": "api/attractions/search/{searchquery}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchquery",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ImageController",
+    "Method": "GetImage",
+    "RelativePath": "api/image",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "location",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProxyController",
     "Method": "GetLocations",
     "RelativePath": "api/locations",
     "HttpMethod": "GET",
@@ -172,6 +204,90 @@
     "Parameters": [
       {
         "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserDataController",
+    "Method": "CreateReview",
+    "RelativePath": "api/UserData/review",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserDataController",
+    "Method": "GetReviewsForAttraction",
+    "RelativePath": "api/UserData/reviews-for-attraction/{attractionId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "attractionId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserDataController",
+    "Method": "GetReviewsMadeByUser",
+    "RelativePath": "api/UserData/reviews-made-by-user/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserDataController",
+    "Method": "CreateUserData",
+    "RelativePath": "api/UserData/userdata",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserDataController",
+    "Method": "GetUserData",
+    "RelativePath": "api/UserData/userdata/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserDataController",
+    "Method": "UpdateUserData",
+    "RelativePath": "api/UserData/userdata/{userId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
         "Type": "System.Guid",
         "IsRequired": true
       }

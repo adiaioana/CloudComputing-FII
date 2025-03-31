@@ -4,7 +4,15 @@
 
 <div *ngIf="!loading && !timeoutReached && attractions.length > 0" class="attractions-grid">
   <div *ngFor="let attraction of attractions" class="attraction-card">
-    <h3>{{ attraction.name }}</h3>
+    <a [routerLink]="['/attraction', attraction.id]" class="attraction-card-link">
+      <div class="card-image">
+        <img *ngIf="attractionsImages[attraction.name]"
+             [src]="attractionsImages[attraction.name]"
+             alt="{{ attraction.name }}" />
+        <div *ngIf="!attractionsImages[attraction.name]" class="no-image">No Image Available</div>
+      </div>
+      <h3>{{ attraction.name }}</h3>
+    </a>
   </div>
 </div>
 

@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Authorization;
 using server_solution.Services;
 using server_solution.DTOs;
+using System.Net.Http;
 
 [ApiController]
 [Route("api")]
@@ -13,6 +14,7 @@ public class ProxyController : ControllerBase
     {
         _proxyService = proxyService;
     }
+
 
     // Publicly accessible GET endpoints
     [HttpGet("attractions")]
@@ -70,6 +72,9 @@ public class ProxyController : ControllerBase
         return await _proxyService.ForwardJsonRequest(Request, $"/attractions/{id}", HttpMethod.Put, attraction);
     }
 
+    [HttpGet("attractions/search/{searchquery}")]
+    [AllowAnonymous]
+    public Task<IActionResult> ForwardSearchRequest(string searchquery) => _proxyService.ForwardRequest(Request, $"/attractions/search/{searchquery}", HttpMethod.Get);
 
     [HttpDelete("attractions/{id}")]
     [AllowAnonymous]

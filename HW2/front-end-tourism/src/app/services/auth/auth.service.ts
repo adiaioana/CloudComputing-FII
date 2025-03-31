@@ -1,20 +1,21 @@
 import { Injectable } from '@angular/core';
-import {HttpClient, HttpHeaders} from '@angular/common/http';
-import {catchError, map, Observable, pipe, throwError} from 'rxjs';
-import { tap } from 'rxjs/operators';
-import * as jwt_decode from 'jwt-decode';
-import axios, {AxiosHeaders, AxiosResponse} from 'axios';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { Observable, throwError } from 'rxjs';
+import { catchError, map, tap } from 'rxjs/operators';
+import * as jwt_decode from 'jwt-decode'; // To decode the JWT
+
 @Injectable({
-  providedIn: 'root',  // ✅ Keep this
+  providedIn: 'root',
 })
 export class AuthService {
-  private apiUrl = 'http://localhost:4999/api';
 
-  constructor(private http: HttpClient) { }
+  private apiUrl = 'http://localhost:4999/api'; // Base API URL
+
+  constructor(private http: HttpClient) {}
 
   login(credentials: { email: string; passwordUnhashed: string }): Observable<any> {
     return this.http.post<{ token: string }>(`${this.apiUrl}/login`, credentials).pipe(
-      tap(response => {
+      tap((response) => {
         console.log('Login response:', response);
         if (response.token) {
           console.log('Setting JWT in localStorage:', response.token);
@@ -26,75 +27,58 @@ export class AuthService {
   }
 
   register(userData: { username: string; email: string; passwordUnhashed: string; role: string }): Observable<any> {
-    console.log(userData);
+    console.log('Register user data:', userData);
     return this.http.post<{ token: string }>(`${this.apiUrl}/register`, userData).pipe(
-      tap(response => {
+      tap((response) => {
         if (response.token) {
           localStorage.setItem('jwt', response.token);
         }
       })
     );
   }
-  getUserData(id: string): Observable<{ username: string; email: string }> {
-    console.log('this is the id decoded in getUserData:', id);
-
-    const token = localStorage.getItem('jwt');
-
-    if (!token) {
-      console.error('No token found in localStorage');
-      return throwError(() => new Error('No token available'));
-    }
-
-    // Set up headers including Authorization with the token
-    const headers = new HttpHeaders({
-      Authorization: `Bearer ${token}`,
-      'Content-Type': 'application/json'
-    });
-
-    return this.http.get<{ username?: string; email?: string }>(
-      `${this.apiUrl}/user/${id}`,
-      { headers }
-    ).pipe(
-      map(response => ({
-        username: response.username || '',
-        email: response.email || ''
-      })),
-      tap(userdata => {
-        console.log('User data processed:', userdata);
-      }),
-      catchError(error => {
-        console.error('Error fetching user data:', error);
-        return throwError(() => error);
-      })
-    );
-  }
 
   logout(): void {
+    console.log('Logging out...');
     localStorage.removeItem('jwt');
   }
 
   getToken(): string | null {
+    //console.log('Getting token from localStorage:', localStorage.getItem('jwt'));
     return localStorage.getItem('jwt');
   }
 
   isAuthenticated(): boolean {
-    return !!this.getToken();
+    const token = this.getToken();
+    //console.log('Is user authenticated:', !!token);
+    return !!token;
   }
 
-  getUser(): any {
-    const token = localStorage.getItem('jwt');
-    if (token) {
-      try {
-        // Decode the token and extract user data (username, email, etc.)
-        const decodedToken: any = jwt_decode.jwtDecode(token);
-        console.log('decoded token info>',decodedToken);
+  // New method to get the user from the backend
+  getUser(): { email: any; username: any } {
+    const token = this.getToken();
 
-        return this.getUserData(decodedToken.sub); // Return the decoded token (which contains the user info)
-      } catch (error) {
-        console.error('Error decoding token:', error);
-        return null;
-      }
+    if (!token) {
+      console.log('No token found');
+      return {username:'adia', email:'adiacartof@yah.com'};
     }
-    return null; // Return null if no token is found
+
+    // Decode the JWT to extract user ID (sub)
+    const decodedToken :any = jwt_decode.jwtDecode(token);
+    const userId = decodedToken.sub;
+
+    return {username: decodedToken.username || 'adia', email: decodedToken.email || 'adiacartof@yah.com'};
+
+   // console.log('Decoded user ID:', userId);
+
+    // Set up the authorization header with the Bearer token
+    const headers = new HttpHeaders().set('Authorization', `Bearer ${token}`);
+
+    // Make a GET request to fetch user details from the API
+   /* return this.http.get<any>(`${this.apiUrl}/user/${userId}`, { headers }).pipe(
+      catchError((error) => {
+        console.error('Error fetching user data:', error);
+        return throwError(error);
+      })
+    );*/
   }
 }

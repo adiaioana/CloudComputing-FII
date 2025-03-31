@@ -1,0 +1,62 @@
+/* Layout for Attraction Details */
+.attraction-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.attraction-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 20px;
+}
+
+.attraction-text-info {
+  flex: 1;
+  margin-right: 20px;
+  text-align: left;
+}
+
+.attraction-map-container {
+  flex-shrink: 0;
+  width: 400px;  /* Fixed width for map */
+  height: 300px; /* Fixed height for map */
+}
+
+.back-button-container {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.back-button {
+  background-color: #007bff;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
+.reviews-section {
+  margin-top: 20px;
+}
+
+.review-item {
+  margin-bottom: 15px;
+}
+
+.review-rating {
+  font-weight: bold;
+}
+
+.review-text {
+  margin-top: 5px;
+}

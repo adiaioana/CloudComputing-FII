@@ -18,9 +18,9 @@
   <div class="search">
     <mat-form-field appearance="outline">
       <mat-label>Search</mat-label>
-      <input matInput placeholder="Search...">
+      <input matInput placeholder="Search..." [(ngModel)]="searchQuery" (keydown.enter)="onSearch()" />
     </mat-form-field>
-    <button mat-button class="search-btn">
+    <button mat-button class="search-btn" (click)="onSearch()">
       <mat-icon>search</mat-icon>
     </button>
   </div>

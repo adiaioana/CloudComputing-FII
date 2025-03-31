@@ -1,5 +1,6 @@
 import datetime
-
+from sqlalchemy import or_
+from flask_cors import CORS
 from flask import Flask, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
 from werkzeug.security import generate_password_hash, check_password_hash
@@ -9,10 +10,12 @@ import uuid
 import sys
 
 app = Flask(__name__)
+CORS(app)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:postgres@localhost:5432/Tourism_Database'
 app.config['JWT_SECRET_KEY'] = 'SuperSecretKey123!'  # Change this to match the secret used by .NET if needed
 app.config['JWT_ALGORITHM'] = 'HS256'  # Ensure this matches your .NET server
 app.config['JWT_IDENTITY_CLAIM'] = 'sub'
+
 
 db = SQLAlchemy(app)
 jwt = JWTManager(app)
@@ -41,7 +44,22 @@ class Users(db.Model):
 
     def to_dict(self):
         return {c.name: str(getattr(self, c.name)) if isinstance(getattr(self, c.name), uuid.UUID) else getattr(self, c.name) for c in self.__table__.columns}
+@app.route('/attractions/search/<searchquery>', methods=['GET'])
+def search_attractions(searchquery):
+    # Perform a case-insensitive search across relevant fields
+    attractions = Attractions.query.filter(
+        or_(
+            Attractions.name.ilike(f'%{searchquery}%'),
+            Attractions.location.ilike(f'%{searchquery}%'),
+            Attractions.description.ilike(f'%{searchquery}%'),
+            Attractions.category.ilike(f'%{searchquery}%')
+        )
+    ).all()
 
+    # Convert the results to a list of dictionaries
+    results = [attraction.to_dict() for attraction in attractions]
+
+    return jsonify(results)
 @app.route('/attractions', methods=['GET'])
 def get_attractions():
     attractions = Attractions.query.all()
@@ -109,30 +127,24 @@ def get_users():
     return jsonify([user.to_dict() for user in users])
 
 @app.route('/user/<uuid:id>', methods=['GET'])
-@jwt_required()
 def get_user(id):
     claims = get_jwt()  # Get JWT claims (includes role and sub)
     user_id_from_jwt = claims.get("sub")  # Get user ID from JWT
-    print(user_id_from_jwt, file=sys.stderr)
     user_role = claims.get("role")  # Get user role
-
+    print('got the req', file=sys.stderr)
     # Allow access if the user is an admin or if the user ID matches the requested ID
-    if user_role != "Admin" and str(user_id_from_jwt)!= str(id):
+    if user_role != "Admin" and str(user_id_from_jwt) != str(id):
         return jsonify({"error": "Forbidden: Access denied"}), 403
 
-    user = Users.query.get_or_404(id)
-    return jsonify(user.to_dict())
+    # Query only the 'email' and 'username' columns
+    user = db.session.execute(
+        db.select(Users.email, Users.username).filter_by(id=id)
+    ).scalars().first()
 
-@app.route('/user/<uuid:id>', methods=['PUT'])
-@jwt_required()
-def update_user(id):
-    user = Users.query.get_or_404(id)
-    data = request.get_json()
-    for key, value in data.items():
-        setattr(user, key, value)
-    db.session.commit()
-    return jsonify(user.to_dict())
-
+    if user:
+        return jsonify({"email": user[0], "username": user[1]})
+    else:
+        return jsonify({"error": "User not found"}), 404
 @app.route('/user/<uuid:id>', methods=['DELETE'])
 @jwt_required()
 def delete_user(id):
@@ -178,14 +190,16 @@ def login():
     if user and check_password_hash(user.password_hash, data["password_unhashed"]):
         expires = datetime.timedelta(hours=1)
         access_token = create_access_token(
-            identity=str(user.id),  # ✅ ID as string (required)
-            additional_claims={"email": user.email, "role": user.role},  # ✅ Extra info goes here
+            identity=str(user.id),  # User ID as identity
+            additional_claims={
+                "email": user.email,  # Add email to the claims
+                "role": user.role,  # Add role to the claims
+                "username": user.username  # Add username to the claims
+            },
             expires_delta=expires
         )
         return jsonify({"token": access_token}), 200
 
     return jsonify({"error": "Invalid email or password"}), 401
-
-
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5001)
