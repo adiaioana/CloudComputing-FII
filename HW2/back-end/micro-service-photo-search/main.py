@@ -35,7 +35,7 @@ def get_image(location: str = Query(..., title="Location")):
 
 @app.route('/osm_data', methods=['GET'])
 def get_osm_data():
-    # Example: Fetching all cafes in a specific area
+
     overpass_url = "http://overpass-api.de/api/interpreter"
     overpass_query = """
     [out:json];

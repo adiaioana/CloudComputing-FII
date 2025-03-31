@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\FII\\CC\\HW2\\back-end\\server-solution\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FB841119-3071-4815-BC28-AC2D0DDBF42F}|server-solution\\server-solution.csproj|d:\\fii\\cc\\hw2\\back-end\\server-solution\\server-solution\\controllers\\proxycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB841119-3071-4815-BC28-AC2D0DDBF42F}|server-solution\\server-solution.csproj|solutionrelative:server-solution\\controllers\\proxycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB841119-3071-4815-BC28-AC2D0DDBF42F}|server-solution\\server-solution.csproj|d:\\fii\\cc\\hw2\\back-end\\server-solution\\server-solution\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB841119-3071-4815-BC28-AC2D0DDBF42F}|server-solution\\server-solution.csproj|solutionrelative:server-solution\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FB841119-3071-4815-BC28-AC2D0DDBF42F}|server-solution\\server-solution.csproj|d:\\fii\\cc\\hw2\\back-end\\server-solution\\server-solution\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB841119-3071-4815-BC28-AC2D0DDBF42F}|server-solution\\server-solution.csproj|solutionrelative:server-solution\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB841119-3071-4815-BC28-AC2D0DDBF42F}|server-solution\\server-solution.csproj|d:\\fii\\cc\\hw2\\back-end\\server-solution\\server-solution\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{FB841119-3071-4815-BC28-AC2D0DDBF42F}|server-solution\\server-solution.csproj|solutionrelative:server-solution\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB841119-3071-4815-BC28-AC2D0DDBF42F}|server-solution\\server-solution.csproj|d:\\fii\\cc\\hw2\\back-end\\server-solution\\server-solution\\controllers\\proxycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB841119-3071-4815-BC28-AC2D0DDBF42F}|server-solution\\server-solution.csproj|solutionrelative:server-solution\\controllers\\proxycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB841119-3071-4815-BC28-AC2D0DDBF42F}|server-solution\\server-solution.csproj|d:\\fii\\cc\\hw2\\back-end\\server-solution\\server-solution\\services\\proxyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 118,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -98,20 +102,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "ImageController.cs",
+              "DocumentMoniker": "D:\\FII\\CC\\HW2\\back-end\\server-solution\\server-solution\\Controllers\\ImageController.cs",
+              "RelativeDocumentMoniker": "server-solution\\Controllers\\ImageController.cs",
+              "ToolTip": "D:\\FII\\CC\\HW2\\back-end\\server-solution\\server-solution\\Controllers\\ImageController.cs",
+              "RelativeToolTip": "server-solution\\Controllers\\ImageController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwBEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T05:59:18.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "ProxyController.cs",
               "DocumentMoniker": "D:\\FII\\CC\\HW2\\back-end\\server-solution\\server-solution\\Controllers\\ProxyController.cs",
               "RelativeDocumentMoniker": "server-solution\\Controllers\\ProxyController.cs",
               "ToolTip": "D:\\FII\\CC\\HW2\\back-end\\server-solution\\server-solution\\Controllers\\ProxyController.cs",
               "RelativeToolTip": "server-solution\\Controllers\\ProxyController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAA4wDMAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwDMAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-31T00:33:45.532Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ProxyService.cs",
               "DocumentMoniker": "D:\\FII\\CC\\HW2\\back-end\\server-solution\\server-solution\\Services\\ProxyService.cs",
               "RelativeDocumentMoniker": "server-solution\\Services\\ProxyService.cs",
@@ -119,25 +136,24 @@
               "RelativeToolTip": "server-solution\\Services\\ProxyService.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAQwFsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T10:12:19.237Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-30T10:12:19.237Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\FII\\CC\\HW2\\back-end\\server-solution\\server-solution\\Program.cs",
               "RelativeDocumentMoniker": "server-solution\\Program.cs",
               "ToolTip": "D:\\FII\\CC\\HW2\\back-end\\server-solution\\server-solution\\Program.cs",
               "RelativeToolTip": "server-solution\\Program.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAiwDYAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAADYAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-30T10:14:32.442Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\FII\\CC\\HW2\\back-end\\server-solution\\server-solution\\appsettings.json",
               "RelativeDocumentMoniker": "server-solution\\appsettings.json",
@@ -145,12 +161,11 @@
               "RelativeToolTip": "server-solution\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-30T10:12:36.225Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-30T10:12:36.225Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "DataService.cs",
               "DocumentMoniker": "D:\\FII\\CC\\HW2\\back-end\\server-solution\\server-solution\\Services\\DataService.cs",
               "RelativeDocumentMoniker": "server-solution\\Services\\DataService.cs",
@@ -158,12 +173,11 @@
               "RelativeToolTip": "server-solution\\Services\\DataService.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAcwDQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T23:38:54.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-30T23:38:54.883Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "UserDataController.cs",
               "DocumentMoniker": "D:\\FII\\CC\\HW2\\back-end\\server-solution\\server-solution\\Controllers\\UserDataController.cs",
               "RelativeDocumentMoniker": "server-solution\\Controllers\\UserDataController.cs",
@@ -171,12 +185,11 @@
               "RelativeToolTip": "server-solution\\Controllers\\UserDataController.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAzwA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T23:29:16.033Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-30T23:29:16.033Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\FII\\CC\\HW2\\back-end\\server-solution\\server-solution\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "server-solution\\Properties\\launchSettings.json",
@@ -184,12 +197,11 @@
               "RelativeToolTip": "server-solution\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-30T11:18:15.345Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-30T11:18:15.345Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "CreateUserDTO.cs",
               "DocumentMoniker": "D:\\FII\\CC\\HW2\\back-end\\server-solution\\server-solution\\DTOs\\CreateUserDTO.cs",
               "RelativeDocumentMoniker": "server-solution\\DTOs\\CreateUserDTO.cs",
@@ -201,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "UserLoginDTO.cs",
               "DocumentMoniker": "D:\\FII\\CC\\HW2\\back-end\\server-solution\\server-solution\\DTOs\\UserLoginDTO.cs",
               "RelativeDocumentMoniker": "server-solution\\DTOs\\UserLoginDTO.cs",
@@ -213,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "UserDTO.cs",
               "DocumentMoniker": "D:\\FII\\CC\\HW2\\back-end\\server-solution\\server-solution\\DTOs\\UserDTO.cs",
               "RelativeDocumentMoniker": "server-solution\\DTOs\\UserDTO.cs",
@@ -225,7 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "AttractionDTO.cs",
               "DocumentMoniker": "D:\\FII\\CC\\HW2\\back-end\\server-solution\\server-solution\\DTOs\\AttractionDTO.cs",
               "RelativeDocumentMoniker": "server-solution\\DTOs\\AttractionDTO.cs",
@@ -237,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "CreateAttractionDTO.cs",
               "DocumentMoniker": "D:\\FII\\CC\\HW2\\back-end\\server-solution\\server-solution\\DTOs\\CreateAttractionDTO.cs",
               "RelativeDocumentMoniker": "server-solution\\DTOs\\CreateAttractionDTO.cs",
@@ -249,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "UpdateAttractionDTO.cs",
               "DocumentMoniker": "D:\\FII\\CC\\HW2\\back-end\\server-solution\\server-solution\\DTOs\\UpdateAttractionDTO.cs",
               "RelativeDocumentMoniker": "server-solution\\DTOs\\UpdateAttractionDTO.cs",
@@ -261,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "server-solution",
               "DocumentMoniker": "D:\\FII\\CC\\HW2\\back-end\\server-solution\\server-solution\\server-solution.csproj",
               "RelativeDocumentMoniker": "server-solution\\server-solution.csproj",

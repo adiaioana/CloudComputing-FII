@@ -21,7 +21,7 @@ public class ImageController : ControllerBase
             return BadRequest(new { error = "Location is required" });
         }
 
-        var fastApiUrl = $"http://localhost:5002/image?location={Uri.EscapeDataString(location)}";
+        var fastApiUrl = $"http://localhost:8000-->/image?location={Uri.EscapeDataString(location)}";
 
         try
         {
